@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SSLG Reporting Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>SSLG Reporting Portal</h1>
+        <p>Submit concerns, suggestions, and reports.</p>
+    </header>
+
+    <main>
+        <form action="YOUR_FORMSPREE_URL" method="POST">
+
+            <label>Name (Optional)</label>
+            <input type="text" name="name">
+
+            <label>Grade & Section</label>
+            <input type="text" name="section">
+
+            <label>Concern Type</label>
+            <select name="type">
+                <option>Suggestion</option>
+                <option>Bullying</option>
+                <option>Facilities</option>
+                <option>Academic</option>
+                <option>Other</option>
+            </select>
+
+            <label>Description</label>
+            <textarea name="message" required></textarea>
+
+            <button type="submit">Submit Report</button>
+
+        </form>
+    </main>
+
+</body>
+</html>
