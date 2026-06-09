@@ -1,14 +1,23 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    background-color: #800000; /* Maroon */
+    color: white;
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+
+    background-color: white;
+    color: black;
+
+    padding: 20px;
+    border-radius: 10px;
 }
 
 input,
@@ -19,4 +28,7 @@ textarea {
 
 button {
     padding: 10px;
+}
+h1 {
+    color: #FFD700;
 }
